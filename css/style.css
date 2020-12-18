@@ -1,0 +1,47 @@
+.navbar {
+    position: relative;
+    height: 12vw;
+}
+
+.logo {
+    width: 13.3vw;
+    height: 10.66vw;
+}
+
+.navbar-brand {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -6.665vw;
+    display: block;
+}
+
+#carouselControls {
+    margin-top: 1.5vh;
+    padding-top: 1.5vh;
+    background-color: #FF5D22;
+}
+
+.carousel-item {
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    margin-left: -25vw;
+    height: 31vw;
+}
+
+.cust {
+    align-items: center;
+    margin-right: 0;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.it-3 {
+    width: 26vw;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    margin-left: -13vw;
+}
