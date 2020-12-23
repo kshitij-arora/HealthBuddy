@@ -226,6 +226,6 @@ function Choose(input_id, symptom_number, option_indx) {
     setTimeout(function(){
         chosen[0].classList.remove('blinking');
         Next();
-    }, 500);
+    }, 800);
 
 }
