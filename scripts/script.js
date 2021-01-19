@@ -112,8 +112,17 @@ function make_prediction() {
 
     output = model.predict(input_tensor);
     const outputData = output.dataSync();
-    // document.getElementById("answer").value = Number(outputData[1])+ extra;
-    console.log(Number(outputData[1])+ extra)
+    const finalAnswer = (Number(outputData[1])+ extra)
+
+    document.getElementById('form').style.height='25vh';
+    document.getElementById('form').style.transform='translate(0,2.5vh)';
+    document.getElementById('next').style.display = 'inline-block';
+    document.getElementById('submit').style.display = 'none';
+    
+    document.getElementById('answer-div').classList.add('active-form');
+    document.getElementById('direct-contact-with-someone-infected-div').classList.remove('active-form');
+    
+    document.getElementById("answer-id").value = finalAnswer;
     return false;
 
 }
